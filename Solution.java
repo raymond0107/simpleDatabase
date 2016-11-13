@@ -189,7 +189,7 @@ public class Solution {
 				ans += "> NO TRANSACTION" + "\n";
 			}
 			operation = now;
-		}
+		} 
 		else if (op.equals("COMMIT")) {
 			Operation now = transaction.commit(operation);
 			if (now == null || transaction.empty()) {
