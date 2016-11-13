@@ -113,7 +113,7 @@ class Transaction {
 		return stack.empty();
 	}
 }
-
+ 
 public class Solution {
 
     public static void process(String input, String mode) {
